@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!--! my Header -->
+    <nav class="navbar navbar-expand-lg">
+      <!-- logo -->
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">RESUME</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- navbar center -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Portfolio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+          <!--! input for LOG IN -->
+          <form class="d-flex" role="search">
+            <div class="form-control">
+              <input
+                placeholder="Log-In"
+                class="input"
+                name="text"
+                type="text"
+              />
+            </div>
+            <button
+              class="btn btn-outline-success text-dark bg-warning"
+              type="submit"
+            >
+              ENTER
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!--! first section -->
+    <section class="text-dark py-5">
+      <div class="container">
+        <div class="d-flex flex-wrap justify-content-between align-items-center">
+          <div>
+            <!-- here is the main information the place were u get hooked by my presentation -->
+            <h1>
+              Бексултан Асан уулу
+              <span class="text-secondary"> Приветствует вас! </span>
+            </h1>
+            <p class="lead my-4">
+              Сегодня вы узнаете не много обо мне, вы узнаете почему вам нужно
+              расмотреть меня в должности FRONT-END разработчика
+            </p>
+            <button class="btn btn-primary btn-lg">Скачать резюме</button>
+          </div>
+          <div class="hero-img"><img class="w-50 hero-photo" src="./h1photo.jpg" alt="" /></div>
+        </div>
+      </div>
+    </section>
+    <!-- ! second section -->
+    <section>
+      <div class="container ">
+        <h2 class="text-center my-5 text-dark">
+          Companies that using my products
+        </h2>
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="d-flex justify-content-between gap-2">
+                <!-- here is the nasa card -->
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="https://i.ytimg.com/vi/zdhCB3LpP9g/maxresdefault.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body text-center bg-dark">
+                    <h5 class="card-title">NASA</h5>
+                    <p class="card-text text-light">
+                      I used to work in the best space company in the world, it
+                      was my first job were i did work. my salary was not too
+                      much (around 3500$ for the start) so i left my job after
+                      two month, it was to easy for me to work there, but i
+                      aprove that they have the best computers, i tried to play
+                      some MINCRAFT there and i blowed 10k of tnt and my
+                      conputer took it perfect, also they were trying to send me
+                      to the moon, i thought its too boring couse there was not
+                      one hudreds of people, even a dogs was first u know it can
+                      be the shame for the my reputation((
+                    </p>
+                    <a href="https://www.nasa.gov" class="btn btn-primary"
+                      >NASA</a
+                    >
+                  </div>
+                </div>
+                <!-- here is the tesla card -->
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="https://cdn.worldvectorlogo.com/logos/tesla-motors.svg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body text-center bg-danger">
+                    <h5 class="card-title">Tesla</h5>
+                    <p class="card-text">
+                      After Nasa i found a little car company it used to called
+                      TESLA(maybe they get some better name) the best thing in
+                      this company that here i found a very good friend, his
+                      name is Elon. Such a nice guy we used to play minecraft in
+                      space but suddenly in the space the worst WI FI. Here i
+                      worked almost 4,5 month. I got bored so i used to move to
+                      another company
+                    </p>
+                    <a href="https://www.tesla.com" class="btn btn-primary"
+                      >Read more</a
+                    >
+                  </div>
+                </div>
+                <!-- ! microsoft -->
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAVFBMVEX////yUCJ/ugAApO//uQDxOgBytADyShT2j3v/+/T/tAAAnO74+/R7uACpz3T0+f50wPTxMgD1hW//rgDwHABnrwDxQwD4s6ejzGgAle0Amu5ovPNVGgEPAAABAklEQVR4nO3biQnCQBRF0bhkceKWxGjU/vsUHKzgMyDh3AIenAJeVUmSJEmSJEmSJEmSJEmSpH/tVocaxu/KcW5CzQWF9SZU22Vhsw3VEBISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhKuSDi0oe4/4SlUSeHYxXpk4XIOtRQUSlL5LtHyzCFYQeGzD/V6Z+CUQk0Fhf0u1jUL0z5UIiQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCRckXD97zxJkiRJkiRJkiRJkiRJkhTrA29gzkcc3y0uAAAAAElFTkSuQmCC"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body text-center bg-warning">
+                    <h5 class="card-title">microsoft</h5>
+                    <p class="card-text">
+                      After tesla Elon were suggesting the biggest company (i
+                      think he were just trying to send me far from tesla but
+                      nvm) I created WINDOWS 12 for them in two weeks, they
+                      apreciated me as well, after i was just chilin with the
+                      Bill, but he is just some old dude, i worked here for
+                      almost a year and some
+                    </p>
+                    <a href="#" class="btn btn-primary">Read more</a>
+                  </div>
+                </div>
+                <!--! twitter -->
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="https://store-images.s-microsoft.com/image/apps.45406.9007199266244427.4d45042b-d7a5-4a83-be66-97779553b24d.2a88a418-b96d-44a6-ad4f-5e0ee6289b2c"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body text-center bg-primary">
+                    <h5 class="card-title">Nursultan</h5>
+                    <p class="card-text">
+                      i were trying to find some not boring job for me and then
+                      this happened. I FOUND!!! that were the company yet very
+                      friendly and fun cooperate. Also here were the free
+                      coffe(i think thats why they will fired with their budget)
+                      nothing were wrong, im chilling cause i found the best
+                      company yet, we were playing MINECRAFT every day, AND THEN
+                      THIS SHIT HAPPEND HE CAME!!!! Who? u will ask It was
+                      fucking ELON!!!! he just bought the place. if u will say
+                      that i was in shock, YES i was, immideatelly i left this
+                      job. It was so quick
+                    </p>
+                    <a href="#" class="btn btn-danger">Read more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--! blizzard -->
+            <div class="carousel-item">
+              <div class="d-flex justify-content-between gap-2">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="https://yt3.googleusercontent.com/zccDLwrvSrSwFYhOP4MCTvYYgz2NQEjbg1ilcI1A-qDKvrhh7Fz_fBUI7-y9i5RflWQH1P1fMA=s900-c-k-c0x00ffffff-no-rj"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body text-center bg-dark">
+                    <h5 class="card-title text-light">Blizzard</h5>
+                    <p class="card-text text-light">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Dolorem quam quia minus non dicta, alias beatae voluptas
+                      deserunt exercitationem dolorum minima architecto
+                      molestiae ut fugiat autem labore cumque error nisi
+                      deleniti possimus sed? Illo qui impedit, corporis ad
+                      suscipit voluptas quae sed quas est quo. Velit, vero
+                      dolorem unde quia ipsa modi quis odio reiciendis eum ab,
+                      maxime assumenda harum neque vel! Nulla vitae eaque
+                      inventore libero ut ab itaque incidunt, accusamus
+                      explicabo pariatur atque! A adipisci alias laboriosam?
+                      Quidem dolores at ab aliquid, atque deserunt alias libero
+                      repudiandae exercitationem fugiat veniam maxime obcaecati
+                      iure pariatur assumenda deleniti ullam laborum!
+                    </p>
+                    <a href="#" class="btn btn-primary">Read more</a>
+                  </div>
+                </div>
+                <!-- ! valve -->
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="https://egamersworld.com/uploads/blog/1546870744203-1.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Valve</h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Hic quidem cum blanditiis non eaque soluta voluptatum eos
+                      excepturi error qui ipsa delectus, libero iure aliquid
+                      debitis. Repudiandae rem nemo quod in ipsam eos similique
+                      iste alias mollitia suscipit hic voluptas a fuga magni,
+                      aperiam possimus? Suscipit recusandae doloremque
+                      asperiores maxime, dicta sit? Facere alias ullam
+                      dignissimos tempore saepe impedit accusantium possimus ut
+                      ipsum expedita assumenda molestiae fugit explicabo nam
+                      deleniti earum doloremque, quisquam, dolorem accusamus non
+                      sequi quibusdam voluptate optio quas. Eius, esse. Minima
+                      eius, distinctio delectus, ea esse et voluptates quasi
+                      nesciunt, nostrum dolores illo.
+                    </p>
+                    <a href="#" class="btn btn-primary">Read more</a>
+                  </div>
+                </div>
+                <!-- !Instagram -->
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="https://img.freepik.com/free-vector/instagram-icon_1057-2227.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body text-center bg-danger">
+                    <h5 class="card-title">Instagram</h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Pariatur quia neque aspernatur labore obcaecati eum soluta
+                      deleniti numquam quasi, nesciunt accusamus doloremque
+                      repudiandae eligendi laudantium nisi ex earum
+                      exercitationem debitis! Commodi velit officiis hic, soluta
+                      assumenda esse id quam tempora nostrum cum illum impedit
+                      enim quis voluptatibus magni at quo expedita saepe cumque,
+                      rem a fuga temporibus autem aut. Excepturi nihil nisi
+                      laudantium sunt voluptate aspernatur nam eum eligendi
+                      deleniti quaerat, saepe corrupti voluptatum nostrum. At
+                      adipisci omnis aut quos modi provident magni inventore
+                      placeat exercitationem illum quibusdam earum ducimus quod
+                      iusto quo, est, pariatur sequi atque repellat. Saepe,
+                      consequatur.
+                    </p>
+                    <a href="#" class="btn btn-primary">Read more</a>
+                  </div>
+                </div>
+                <!-- ! RIOT games -->
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="https://s3-symbol-logo.tradingview.com/riot-blockchain--600.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body text-center bg-success">
+                    <h5 class="card-title">RIOT games</h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Molestiae hic ullam dolorum ipsum. Neque et, ad expedita
+                      numquam dicta, modi, voluptatem in delectus provident fuga
+                      veritatis quae eligendi quas placeat pariatur! Facere fuga
+                      accusamus commodi ipsum, adipisci enim eligendi
+                      exercitationem, consectetur nobis ipsa assumenda. Hic,
+                      voluptatem natus? Odio necessitatibus quisquam aliquam
+                      explicabo ab sit assumenda dolore quae distinctio impedit
+                      ipsum recusandae, ratione quaerat dolorum praesentium,
+                      tempore sequi officiis obcaecati dicta libero, laborum
+                      quasi vitae reiciendis quas. Architecto dolorum voluptates
+                      dicta, tempora placeat voluptatem cum ut aliquam impedit.
+                      Delectus sequi non nihil error iure voluptate vel aliquam
+                      officiis voluptatum, deserunt aut!s
+                    </p>
+                    <a href="#" class="btn btn-primary">Read more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex justify-content-between gap-2">
+                <!-- ! MTV -->
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="https://w7.pngwing.com/pngs/83/488/png-transparent-mtv-logo-television-viacom-media-networks-creative-music-miscellaneous-white-text.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body text-center bg-dark">
+                    <h5 class="card-title text-light">MTV</h5>
+                    <p class="card-text text-light">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Quam, ea debitis! Dicta minima maxime a reiciendis
+                      sapiente provident nulla, tenetur, rerum voluptates
+                      repudiandae explicabo eveniet distinctio? Id quaerat
+                      veritatis voluptatibus quos, in illum sequi quas,
+                      perferendis minima ipsum autem voluptas dignissimos a ab,
+                      animi illo esse temporibus inventore amet natus ratione!
+                      Unde expedita dignissimos, voluptates quibusdam quaerat
+                      eveniet inventore possimus delectus vero ipsam earum autem
+                      numquam similique, modi incidunt praesentium quos sint
+                      optio illo magnam. Atque, vel cupiditate. Distinctio non
+                      quibusdam commodi dolore deserunt quae laborum obcaecati!
+                      Perspiciatis voluptatum, quidem amet odio, ipsa voluptate
+                      similique sint optio, neque quaerat ex.
+                    </p>
+                    <a href="#" class="btn btn-primary">Read more</a>
+                  </div>
+                  <!-- !some random companie -->
+                </div>
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="https://img.freepik.com/premium-vector/woman-woman-feminism-protest-hand-icon_581569-344.jpg"
+                    alt="..."
+                  />
+                  <div class="card-body text-center bg-secondary">
+                    <h5 class="card-title">Information security</h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Adipisci, natus quia quas tenetur sunt beatae explicabo
+                      corporis, ducimus minus error laboriosam eius ipsam porro
+                      labore nulla exercitationem ipsa reiciendis inventore?
+                      Odio nobis, suscipit corrupti sint labore qui aperiam
+                      numquam cumque distinctio, veniam exercitationem porro
+                      possimus iure ad. Quasi laborum maiores cum cumque
+                      veritatis quod ab corrupti fugiat nulla sunt voluptatum
+                      assumenda placeat, asperiores architecto itaque fugit
+                      perspiciatis inventore nam adipisci aperiam tempora hic
+                      laboriosam! Consequuntur nesciunt hic rerum adipisci at
+                      excepturi obcaecati eveniet ea possimus temporibus. Ea
+                      cumque ipsa deleniti. Est, facere! Quia modi ipsam qui
+                      eaque esse voluptates dolor!
+                    </p>
+                    <a href="#" class="btn btn-primary">Read more</a>
+                  </div>
+                </div>
+                <!-- !omptima -->
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="data:image/png;base64,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"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body text-center bg-warning">
+                    <h5 class="card-title">Optima</h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Iste rem error itaque molestiae laboriosam ad ipsum
+                      tempora optio nisi, totam autem! Ad aspernatur molestiae
+                      deserunt unde nesciunt id provident quasi! Aut, tempore
+                      fuga culpa nam ipsa, commodi aliquid, quam pariatur
+                      deserunt recusandae ad? Assumenda inventore harum unde
+                      dicta. Nesciunt, accusamus quae. Consequatur optio soluta
+                      suscipit illum iure ullam molestias itaque quae voluptatem
+                      necessitatibus dicta dolorum cum nesciunt, autem natus
+                      eaque! Rerum tempora perferendis porro dicta, quos
+                      officiis explicabo architecto. Perspiciatis, veniam eos.
+                      Error odit distinctio laborum numquam nemo debitis! Rerum
+                      modi quia veritatis est ex temporibus cupiditate fugiat
+                      placeat! Cupiditate?
+                    </p>
+                    <a href="#" class="btn btn-primary">Read more</a>
+                  </div>
+                </div>
+                <!-- ! avangard -->
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="data:image/jpeg;base64,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"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Avangard</h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Optio sequi perferendis illum fugiat ipsa officia ab
+                      ducimus quo quis sit voluptate nihil autem laborum
+                      corrupti eaque alias, quasi laudantium atque illo sint
+                      odio ipsam numquam eos? Quas dicta ipsum itaque illo
+                      repellendus ex eius officia tempore delectus, qui ratione
+                      et rerum iure fugiat numquam laborum illum adipisci
+                      accusantium! Quas earum nam tenetur vel aliquam! Maxime
+                      impedit exercitationem assumenda est perferendis eos sunt
+                      totam praesentium dignissimos, odit placeat officiis
+                      accusamus nemo soluta saepe voluptates aliquid tempora
+                      veniam consequuntur. Adipisci dignissimos dolorem
+                      voluptate asperiores cumque, unde consequuntur
+                      reprehenderit earum? Aliquid, suscipit quisquam.
+                    </p>
+                    <a href="#" class="btn btn-primary">Read more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- ! third section -->
+    <!-- тут все мои любимые хобби -->
+    <section class="hobby">
+      <div class="container centralize">
+        <h2 class="section-title">My Hobbies</h2>
+        <div class="hobby-list">
+          <div class="hobby-list__item-first">
+            <img src="./scamming2.jpg" alt="" />
+            <p class="naming-for-hobby">Scamming</p>
+          </div>
+          <div class="hobby-list__item-second">
+            <img src="./dancing2.jpg" alt="" />
+            <p class="naming-for-hobby1">dancing</p>
+          </div>
+          <div class="hobby-list__item-third">
+            <img src="./sleeping2.jpg" alt="" />
+            <p class="naming-for-hobby">sleeping</p>
+          </div>
+        </div>
+        <div class="dots">
+          <div class="dots__item_active"></div>
+          <div class="dots__item"></div>
+          <div class="dots__item"></div>
+        </div>
+        <div class="arrows">
+          <div class="arrows">
+            <div class="arrow">
+              <img src="https://www.svgrepo.com/download/135316/left-arrow.svg" alt="" />
+            </div>
+            
+            <div class="arrow arrow_active">
+              <img src="https://www.svgrepo.com/download/27797/right-arrow.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ! skills -->
+    <section class="features skills d-flex flex-wrap justify-content-start align-items-center ">
+      <div class="card">
+        <div class="header">My Skills</div>
+        <div class="body">
+          <div class="skill">
+            <div class="skill-name">HTML</div>
+            <div class="skill-level">
+              <div class="skill-percent" style="width: 90%"></div>
+            </div>
+            <div class="skill-percent-number">90%</div>
+          </div>
+          <div class="skill">
+            <div class="skill-name">CSS</div>
+            <div class="skill-level">
+              <div class="skill-percent" style="width: 80%"></div>
+            </div>
+            <div class="skill-percent-number">80%</div>
+          </div>
+          <div class="skill">
+            <div class="skill-name">JavaScript</div>
+            <div class="skill-level">
+              <div class="skill-percent" style="width: 75%"></div>
+            </div>
+            <div class="skill-percent-number">75%</div>
+          </div>
+        </div>
+      </div>
+      <div class="simple">
+        <img  src="./Market-My-Skills-Program-v3.jpg" alt="" />
+      </div>
+    </section>
+
+    <section class="sidebar">
+      <button
+        class="btn btn-primary"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasScrolling"
+        aria-controls="offcanvasScrolling"
+      >
+        My side bar
+      </button>
+
+      <div
+        class="offcanvas offcanvas-start"
+        data-bs-scroll="true"
+        data-bs-backdrop="false"
+        tabindex="-1"
+        id="offcanvasScrolling"
+        aria-labelledby="offcanvasScrollingLabel"
+      >
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasScrollingLabel">
+            here u can find my contacts
+          </h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <p>
+            пожалуйста не занижайте мне балл за мой сайд бар мне просто не
+            хватает времени что бы сделать его нормально
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- ! тут уже мой футер -->
+    <!-- Footer -->
+    <footer class="text-center text-lg-start footer-color text-muted">
+      <!-- Section: Social media -->
+      <section
+        class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+      >
+        <!-- Left -->
+        <div class="me-5 d-none d-lg-block text-light">
+          <span>Get connected with us on social networks:</span>
+        </div>
+        <!-- Left -->
+
+        <!-- Right -->
+        <div>
+          <a href="" class="me-4 text-reset text-light">
+            <i class="fab fa-facebook-f text-light"></i>
+          </a>
+          <a href="" class="me-4 text-reset text-light">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="" class="me-4 text-reset text-light">
+            <i class="fab fa-google"></i>
+          </a>
+          <a href="" class="me-4 text-reset text-light">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="" class="me-4 text-reset text-light">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="" class="me-4 text-reset text-light">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <!-- Right -->
+      </section>
+      <!-- Section: Social media -->
+
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4 text-light">
+                <i class="fas fa-gem me-3 text-light"></i>Company name
+              </h6>
+              <p class="text-light">
+                Here you can use rows and columns to organize your footer
+                content. Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit.
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4 text-light">Products</h6>
+              <p class="text-light">
+                <a href="#!" class="text-reset text-light">Angular</a>
+              </p>
+              <p class="text-light">
+                <a href="#!" class="text-reset text-light">React</a>
+              </p>
+              <p class="text-light">
+                <a href="#!" class="text-reset text-light">Vue</a>
+              </p>
+              <p class="text-light">
+                <a href="#!" class="text-reset text-light">Laravel</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4 text-light">
+                Useful links
+              </h6>
+              <p class="text-light">
+                <a href="#!" class="text-reset text-light">Pricing</a>
+              </p class="text-light">
+              <p class="text-light">
+                <a href="#!" class="text-reset text-light">Settings</a>
+              </p>
+              <p class="text-light">
+                <a href="#!" class="text-reset">Orders</a>
+              </p>
+              <p class="text-light">
+                <a href="#!" class="text-reset">Help</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4 text-light ">Contact</h6>
+              <p class="text-light"><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+              <p class="text-light">
+                <i class="fas fa-envelope me-3"></i>
+                info@example.com
+              </p>
+              <p class="text-light"><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+              <p class="text-light"><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+
+      <!-- Copyright -->
+      <div
+        class="text-center p-4 text-light"
+        style="background-color: rgba(0, 0, 0, 0.05)"
+      >
+        © 2021 Copyright:
+        <a class="text-reset fw-bold" href="https://mdbootstrap.com/"
+          >MDBootstrap.com</a
+        >
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    <div class="sidebar"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
